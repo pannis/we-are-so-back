@@ -1,7 +1,7 @@
 import hasDuplicate
 import unittest
 
-class noDuplicates(unittest.TestCase):
+class duplicates(unittest.TestCase):
     def testDups(self):
         nums = [1,2,3,3]
         self.assertTrue(hasDuplicate.setSolution.hasDuplicate(self, nums))
